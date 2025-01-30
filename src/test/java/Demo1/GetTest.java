@@ -14,7 +14,7 @@ public class GetTest {
 	public void test1() {
 		Response response = RestAssured.get("https://reqres.in/api/users?page=2");
 		System.out.println(response.statusCode());
-		System.out.println(response.contentType());
+		//System.out.println(response.contentType());
 		System.out.println(response.asString());
 		System.out.println(response.asPrettyString());
 		
